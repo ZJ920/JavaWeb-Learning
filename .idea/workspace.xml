@@ -4,14 +4,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50162867-e71e-4fd6-be6b-8b46efaec416" name="变更" comment="day2-数据库增删改查">
+    <list default="true" id="50162867-e71e-4fd6-be6b-8b46efaec416" name="变更" comment="day3-maven">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2-jdbc-demo/jdbc-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-maven-learning/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-maven-learning/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-maven-learning/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-maven-learning/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-maven-learning/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-maven-learning/src/main/java/javaweb/maven/day3/MavenDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-maven-learning/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-maven-learning/src/main/main1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-maven-learning/src/test/java/MavenDemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-maven-learning/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-maven-learning/src/test/test1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-maven-learning/target/classes/javaweb/maven/day3/MavenDemo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-maven-learning/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-maven-learning/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-mybatis-demo/day3-mybatis-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3-mybatis-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java笔记-JavaWeb篇.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Java笔记-JavaWeb篇.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc-demo/jdbc-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc-demo/jdbc-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc-demo/src/day2/druid/DruidDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc-demo/src/day2/druid/DruidDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc-demo/src/day2/example/MyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc-demo/src/day2/example/MyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jdbc-demo/day2/druid/DruidDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jdbc-demo/day2/druid/DruidDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$va笔记-JavaWeb篇.docx" beforeDir="false" afterPath="$PROJECT_DIR$/~$va笔记-JavaWeb篇.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_Maven/Maven-Learning/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_Maven/Maven-Learning/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_Maven/Maven-Learning/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_Maven/Maven-Learning/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_Maven/Maven-Learning/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_Maven/Maven-Learning/src/main/java/javaweb/maven/day3/MavenDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_Maven/Maven-Learning/src/test/java/MavenDemoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_Maven/Maven-Learning/target/classes/javaweb/maven/day3/MavenDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_Maven/Maven-Learning/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_Maven/Maven-Learning/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-demo/jdbc-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day2-jdbc-demo/day2-jdbc-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-demo/lib/druid-1.1.12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/day2-jdbc-demo/lib/druid-1.1.12.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-demo/lib/mysql-connector-java-5.1.48.jar" beforeDir="false" afterPath="$PROJECT_DIR$/day2-jdbc-demo/lib/mysql-connector-java-5.1.48.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-demo/src/day2/druid/DruidDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/day2-jdbc-demo/src/day2/druid/DruidDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-demo/src/day2/example/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day2-jdbc-demo/src/day2/example/DemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-demo/src/day2/example/MyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/day2-jdbc-demo/src/day2/example/MyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-demo/src/day2/jdbc/JDBCDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/day2-jdbc-demo/src/day2/jdbc/JDBCDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-demo/src/day2/jdbc/PrepareStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/day2-jdbc-demo/src/day2/jdbc/PrepareStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-demo/src/day2/jdbc/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/day2-jdbc-demo/src/day2/jdbc/test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-demo/src/day2/pojo/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/day2-jdbc-demo/src/day2/pojo/Brand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-demo/src/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/day2-jdbc-demo/src/druid.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +76,21 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/jdbc-demo/src/day2/druid/DruidDemo.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/jdbc-demo/src/day2/pojo/Brand.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/jdbc-demo/src/druid.properties" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/jdbc-demo/src/day2/example/DemoTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/day2-jdbc-demo/src/day2/druid/DruidDemo.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/day2-jdbc-demo/src/day2/pojo/Brand.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/day2-jdbc-demo/src/druid.properties" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/day2-jdbc-demo/src/day2/example/DemoTest.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\Study\Maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2UayJrXvT0o2EnBDuMyzcvVQSzF" />
   <component name="ProjectLevelVcsManager">
@@ -65,7 +112,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jdbc-demo/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day3-maven-learning/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -73,7 +120,7 @@
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -84,7 +131,7 @@
   <component name="RunManager" selected="应用程序.MyDemo">
     <configuration name="DemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day2.example.DemoTest" />
-      <module name="jdbc-demo" />
+      <module name="day2-jdbc-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day2.example.*" />
@@ -97,7 +144,7 @@
     </configuration>
     <configuration name="DruidDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day2.druid.DruidDemo" />
-      <module name="jdbc-demo" />
+      <module name="day2-jdbc-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day2.druid.*" />
@@ -110,7 +157,7 @@
     </configuration>
     <configuration name="JDBCDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day2.jdbc.JDBCDemo" />
-      <module name="jdbc-demo" />
+      <module name="day2-jdbc-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day2.jdbc.*" />
@@ -123,7 +170,7 @@
     </configuration>
     <configuration name="MyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day2.example.MyDemo" />
-      <module name="jdbc-demo" />
+      <module name="day2-jdbc-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day2.example.*" />
@@ -136,13 +183,26 @@
     </configuration>
     <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day2.jdbc.test1" />
-      <module name="jdbc-demo" />
+      <module name="day2-jdbc-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day2.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="day2-jdbc-demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="day2-jdbc-demo" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,6 +230,8 @@
       <workItem from="1693293246254" duration="721000" />
       <workItem from="1693294282725" duration="81000" />
       <workItem from="1693294388396" duration="307000" />
+      <workItem from="1693294994580" duration="1471000" />
+      <workItem from="1693299430259" duration="455000" />
     </task>
     <task id="LOCAL-00001" summary="day2-数据库增删改查">
       <created>1693219007760</created>
@@ -178,7 +240,21 @@
       <option name="project" value="LOCAL" />
       <updated>1693219007760</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="day3-maven">
+      <created>1693295107179</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693295107179</updated>
+    </task>
+    <task id="LOCAL-00003" summary="day3-maven">
+      <created>1693295314223</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693295314223</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +274,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="day2-数据库增删改查" />
-    <option name="LAST_COMMIT_MESSAGE" value="day2-数据库增删改查" />
+    <MESSAGE value="day3-maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="day3-maven" />
   </component>
 </project>

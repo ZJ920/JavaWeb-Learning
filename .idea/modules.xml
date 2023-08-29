@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/JavaWeb-Learning.iml" filepath="$PROJECT_DIR$/.idea/JavaWeb-Learning.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jdbc-demo/jdbc-demo.iml" filepath="$PROJECT_DIR$/jdbc-demo/jdbc-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day3-maven-learning/Maven-Learning.iml" filepath="$PROJECT_DIR$/day3-maven-learning/Maven-Learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day2-jdbc-demo/day2-jdbc-demo.iml" filepath="$PROJECT_DIR$/day2-jdbc-demo/day2-jdbc-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day3-mybatis-demo/day3-mybatis-demo.iml" filepath="$PROJECT_DIR$/day3-mybatis-demo/day3-mybatis-demo.iml" />
     </modules>
   </component>
 </project>
