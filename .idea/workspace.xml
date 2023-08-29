@@ -4,23 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50162867-e71e-4fd6-be6b-8b46efaec416" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/JavaWeb-Learning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-demo/jdbc-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-demo/lib/druid-1.1.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-demo/lib/mysql-connector-java-5.1.48.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-demo/src/day2/druid/DruidDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-demo/src/day2/example/DemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-demo/src/day2/example/MyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-demo/src/day2/jdbc/JDBCDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-demo/src/day2/jdbc/PrepareStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-demo/src/day2/jdbc/test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-demo/src/day2/pojo/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-demo/src/druid.properties" afterDir="false" />
+    <list default="true" id="50162867-e71e-4fd6-be6b-8b46efaec416" name="变更" comment="day2-数据库增删改查">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java笔记-JavaWeb篇.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Java笔记-JavaWeb篇.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-demo/jdbc-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc-demo/jdbc-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-demo/src/day2/druid/DruidDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc-demo/src/day2/druid/DruidDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-demo/src/day2/example/MyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc-demo/src/day2/example/MyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jdbc-demo/day2/druid/DruidDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jdbc-demo/day2/druid/DruidDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$va笔记-JavaWeb篇.docx" beforeDir="false" afterPath="$PROJECT_DIR$/~$va笔记-JavaWeb篇.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,8 +165,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693191917529</updated>
-      <workItem from="1693191918846" duration="12011000" />
+      <workItem from="1693191918846" duration="12356000" />
+      <workItem from="1693270797700" duration="1519000" />
+      <workItem from="1693293246254" duration="721000" />
+      <workItem from="1693294282725" duration="81000" />
+      <workItem from="1693294388396" duration="307000" />
     </task>
+    <task id="LOCAL-00001" summary="day2-数据库增删改查">
+      <created>1693219007760</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693219007760</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,5 +197,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="day2-数据库增删改查" />
+    <option name="LAST_COMMIT_MESSAGE" value="day2-数据库增删改查" />
   </component>
 </project>

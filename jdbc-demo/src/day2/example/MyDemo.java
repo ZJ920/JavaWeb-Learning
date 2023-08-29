@@ -5,6 +5,7 @@ import com.alibaba.druid.pool.DruidDataSourceFactory;
 import javax.sql.DataSource;
 import java.io.FileInputStream;
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.util.Properties;
 
