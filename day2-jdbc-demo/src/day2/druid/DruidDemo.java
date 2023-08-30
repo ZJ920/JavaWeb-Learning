@@ -12,7 +12,7 @@ public class DruidDemo {
 
         Properties prop = new Properties();
 
-        prop.load(new FileInputStream("jdbc-demo\\src\\druid.properties"));
+        prop.load(new FileInputStream("day2-jdbc-demo\\src\\druid.properties"));
 
         DataSource dataSource = DruidDataSourceFactory.createDataSource(prop);
 

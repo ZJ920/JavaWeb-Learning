@@ -5,7 +5,6 @@ import com.alibaba.druid.pool.DruidDataSourceFactory;
 import javax.sql.DataSource;
 import java.io.FileInputStream;
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.util.Properties;
 
@@ -16,7 +15,7 @@ public class MyDemo {
         //1. 获取Connection
         //3. 加载配置文件
         Properties prop = new Properties();
-        prop.load(new FileInputStream("jdbc-demo/src/druid.properties"));
+        prop.load(new FileInputStream("day2-jdbc-demo/src/druid.properties"));
         //4. 获取连接池对象
         DataSource dataSource = DruidDataSourceFactory.createDataSource(prop);
 

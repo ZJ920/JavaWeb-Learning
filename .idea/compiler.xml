@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="day3-maven-learning" />
+        <module name="mybatis-demo" />
         <module name="day3-mybatis-demo" />
       </profile>
     </annotationProcessing>
@@ -14,6 +15,7 @@
       <module name="day3-maven-learning" target="8" />
       <module name="day3-mybatis-demo" target="8" />
       <module name="Maven-Learning" target="8" />
+      <module name="mybatis-demo" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
