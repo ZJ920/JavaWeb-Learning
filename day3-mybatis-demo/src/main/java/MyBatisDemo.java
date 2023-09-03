@@ -1,8 +1,10 @@
+import mapper.BrandMapper;
 import mapper.UserMapper;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import pojo.Brand;
 import pojo.User;
 
 import java.io.IOException;
@@ -32,11 +34,11 @@ public class MyBatisDemo {
         //----------------------------------------------------------
 
         try {
-            UserMapper mapper = sqlSession.getMapper(UserMapper.class);
-            List<User> users = mapper.selectAll();
+            BrandMapper mapper = sqlSession.getMapper(BrandMapper.class);
+            List<Brand> brands = mapper.selectAll();
 
-            for (User user : users){
-                System.out.println(user);
+            for (Brand brand : brands){
+                System.out.println(brand);
             }
         } catch (Exception e) {
             e.printStackTrace();
