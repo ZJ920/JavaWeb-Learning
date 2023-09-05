@@ -1,12 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="day6-tomcat-demo:war" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50162867-e71e-4fd6-be6b-8b46efaec416" name="变更" comment="day3-mybatis 增删改查 注解查询">
+    <list default="true" id="50162867-e71e-4fd6-be6b-8b46efaec416" name="变更" comment="day6-Tomcat">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day6_tomcat_demo2_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day6_tomcat_demo2_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day6_tomcat_demo_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day6_tomcat_demo_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-tomcat-demo/day6-tomcat-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-tomcat-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-tomcat-demo/src/main/webapp/WEB-INF/HTML/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-tomcat-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-tomcat-demo2/day6-tomcat-demo2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-tomcat-demo2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-tomcat-demo2/src/main/webapp/HTML/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-tomcat-demo2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-tomcat-demo2/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2-jdbc-demo/day2-jdbc-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day2-jdbc-demo/day2-jdbc-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3-maven-learning/day3-maven-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day3-maven-learning/day3-maven-learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3-mybatis-demo/day3-mybatis-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day3-mybatis-demo/day3-mybatis-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3-mybatis-demo/target/classes/MyBatisDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/day3-mybatis-demo/target/classes/MyBatisDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3-mybatis-demo/target/classes/mapper/BrandMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/day3-mybatis-demo/target/classes/mapper/BrandMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day3-mybatis-demo/target/classes/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/day3-mybatis-demo/target/classes/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3-mybatis-demo/target/classes/pojo/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/day3-mybatis-demo/target/classes/pojo/Brand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3-mybatis-demo/target/classes/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/day3-mybatis-demo/target/classes/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3-mybatis-demo/target/test-classes/MyBatisDemoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/day3-mybatis-demo/target/test-classes/MyBatisDemoTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +53,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -44,6 +77,13 @@
     <setting file="file://$PROJECT_DIR$/day2-jdbc-demo/src/day2/example/DemoTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/day3-mybatis-demo/src/main/resources/mapper/BrandMapper.xml" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -53,6 +93,11 @@
         <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="D:\Study\Maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="17" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="2UayJrXvT0o2EnBDuMyzcvVQSzF" />
@@ -67,6 +112,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -77,8 +123,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day3-mybatis-demo/src/test/java" />
+    <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day6-tomcat-demo2/src/main/webapp/WEB-INF/HTML" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -90,14 +136,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\myCode\JavaWeb-Learning\day6-tomcat-demo2\src\main\webapp\WEB-INF\HTML" />
       <recent name="D:\Study\myCode\JavaWeb-Learning\day3-mybatis-demo\src\test\java" />
       <recent name="D:\Study\myCode\JavaWeb-Learning\day3-mybatis-demo\src\main\java\pojo" />
       <recent name="D:\Study\myCode\JavaWeb-Learning\mybatis-demo\src\main\resources\com\itheima\mapper" />
       <recent name="D:\Study\myCode\JavaWeb-Learning\day3-mybatis-demo\src\main\resources\mapper" />
-      <recent name="D:\Study\myCode\JavaWeb-Learning\day3-mybatis-demo\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Study\myCode\JavaWeb-Learning\day3-mybatis-demo\src\main\resources\mapper" />
+      <recent name="D:\Study\myCode\JavaWeb-Learning\day6-tomcat-demo2\src\main\webapp" />
+      <recent name="D:\Study\myCode\JavaWeb-Learning\day6-tomcat-demo2\src\main\webapp\WEB-INF\HTML" />
+      <recent name="D:\Study\myCode\JavaWeb-Learning\day6-tomcat-demo\src\main\webapp\WEB-INF\HTML" />
+      <recent name="D:\Study\myCode\JavaWeb-Learning\day6-tomcat-demo\src\main\webapp" />
+      <recent name="D:\Study\myCode\JavaWeb-Learning\day6-tomcat-demo\src\main\webapp\WEB-INF" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -110,7 +160,7 @@
       <recent name="mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisDemoTest.add1">
+  <component name="RunManager" selected="Tomcat 服务器.Tomcat 8.5.93">
     <configuration name="MyBatisDemoTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day3-mybatis-demo" />
       <option name="PACKAGE_NAME" value="" />
@@ -131,26 +181,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyBatisDemoTest.selectByConditionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day3-mybatis-demo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyBatisDemoTest" />
-      <option name="METHOD_NAME" value="selectByConditionTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyBatisDemoTest.selectByConditionTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day3-mybatis-demo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyBatisDemoTest" />
-      <option name="METHOD_NAME" value="selectByConditionTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyBatisDemoTest.selectByConditionTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day3-mybatis-demo" />
       <option name="PACKAGE_NAME" value="" />
@@ -161,13 +191,123 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day6-tomcat-demo中的所有" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day6-tomcat-demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hello.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb-Learning/day6-tomcat-demo2/src/main/webapp/WEB-INF/HTML/hello.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 8.5.93" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.93" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="37cae5b9-e8b2-4949-9172-aafa37fbc09c" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="day6-tomcat-demo:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/day6_tomcat_demo_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="1edd55b7-c884-4467-bf04-e62eef7ec066" />
+        <option name="HTTP_PORT" value="80" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62587" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="day6-tomcat-demo:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript 调试.hello.html" />
+      <item itemvalue="JUnit.MyBatisDemoTest.add" />
+      <item itemvalue="JUnit.MyBatisDemoTest.add1" />
+      <item itemvalue="JUnit.MyBatisDemoTest.selectByConditionTest2" />
+      <item itemvalue="JUnit.day6-tomcat-demo中的所有" />
+      <item itemvalue="Tomcat 服务器.Tomcat 8.5.93" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyBatisDemoTest.add1" />
+        <item itemvalue="JUnit.day6-tomcat-demo中的所有" />
+        <item itemvalue="JavaScript 调试.hello.html" />
         <item itemvalue="JUnit.MyBatisDemoTest.add" />
+        <item itemvalue="JUnit.MyBatisDemoTest.add1" />
         <item itemvalue="JUnit.MyBatisDemoTest.selectByConditionTest2" />
-        <item itemvalue="JUnit.MyBatisDemoTest.selectByConditionTest1" />
-        <item itemvalue="JUnit.MyBatisDemoTest.selectByConditionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +328,9 @@
       <workItem from="1693299430259" duration="2918000" />
       <workItem from="1693357444822" duration="23959000" />
       <workItem from="1693716080931" duration="19853000" />
-      <workItem from="1693792775570" duration="594000" />
+      <workItem from="1693792775570" duration="635000" />
+      <workItem from="1693887572012" duration="4152000" />
+      <workItem from="1693907996105" duration="3751000" />
     </task>
     <task id="LOCAL-00001" summary="day2-数据库增删改查">
       <created>1693219007760</created>
@@ -239,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693737685416</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="day5-HTML+CSS">
+      <created>1693824612048</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693824612048</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +411,8 @@
     <MESSAGE value="day3-maven" />
     <MESSAGE value="day3-mybatis" />
     <MESSAGE value="day3-mybatis 增删改查 注解查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="day3-mybatis 增删改查 注解查询" />
+    <MESSAGE value="day5-HTML+CSS" />
+    <MESSAGE value="day6-Tomcat" />
+    <option name="LAST_COMMIT_MESSAGE" value="day6-Tomcat" />
   </component>
 </project>
