@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/day6-tomcat-demo" />
     <file type="web" url="file://$PROJECT_DIR$/day6-tomcat-demo2" />
+    <file type="web" url="file://$PROJECT_DIR$/day7-servlet-demo" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -12,6 +13,7 @@
         <option value="$PROJECT_DIR$/day3-maven-learning/pom.xml" />
         <option value="$PROJECT_DIR$/day6-tomcat-demo/pom.xml" />
         <option value="$PROJECT_DIR$/day6-tomcat-demo2/pom.xml" />
+        <option value="$PROJECT_DIR$/day7-servlet-demo/pom.xml" />
       </list>
     </option>
   </component>

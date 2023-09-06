@@ -10,6 +10,7 @@
         <module name="day6-tomcat-demo" />
         <module name="day3-mybatis-demo" />
         <module name="day3-maven-learning" />
+        <module name="day7-servlet-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
       <module name="day3-mybatis-demo" target="8" />
       <module name="day6-tomcat-demo" target="1.7" />
       <module name="day6-tomcat-demo2" target="1.7" />
+      <module name="day7-servlet-demo" target="1.7" />
       <module name="Maven-Learning" target="8" />
       <module name="mybatis-demo" target="8" />
     </bytecodeTargetLevel>
