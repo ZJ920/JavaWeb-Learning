@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/RequestPractice/RequestPractice.iml" filepath="$PROJECT_DIR$/RequestPractice/RequestPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/day2-jdbc-demo/day2-jdbc-demo.iml" filepath="$PROJECT_DIR$/day2-jdbc-demo/day2-jdbc-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/day3-maven-learning/day3-maven-learning.iml" filepath="$PROJECT_DIR$/day3-maven-learning/day3-maven-learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/day3-mybatis-demo/day3-mybatis-demo.iml" filepath="$PROJECT_DIR$/day3-mybatis-demo/day3-mybatis-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/day6-tomcat-demo/day6-tomcat-demo.iml" filepath="$PROJECT_DIR$/day6-tomcat-demo/day6-tomcat-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/day6-tomcat-demo2/day6-tomcat-demo2.iml" filepath="$PROJECT_DIR$/day6-tomcat-demo2/day6-tomcat-demo2.iml" />
       <module fileurl="file://$PROJECT_DIR$/day7-servlet-demo/day7-servlet-demo.iml" filepath="$PROJECT_DIR$/day7-servlet-demo/day7-servlet-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web-demo/web-demo.iml" filepath="$PROJECT_DIR$/web-demo/web-demo.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="sdwz.zj.mapper.UserMapper">
+    <!--
+    数据库表的字段名称  和  实体类的属性名称 不一样，则不能自动封装数据
+        * 起别名：对不一样的列名起别名，让别名和实体类的属性名一样
+            * 缺点：每次查询都要定义一次别名
+                * sql片段
+                    * 缺点：不灵活
+        * resultMap：
+            1. 定义<resultMap>标签
+            2. 在<select>标签中，使用resultMap属性替换 resultType属性
+
+-->
+    <!--
+        id：唯一标识
+        type：映射的类型，支持别名
+    -->
+    <resultMap id="userResultMap" type="sdwz.zj.pojo.User">
+        <!--
+            id：完成主键字段的映射
+                column：表的列名
+                property：实体类的属性名
+            result：完成一般字段的映射
+                column：表的列名
+                property：实体类的属性名
+        -->
+        <result column="username" property="userName"/>
+        <result column="password" property="passWord"/>
+    </resultMap>
+
+    <!--动态单条件查询-->
+    <select id="selectLogin" resultMap="userResultMap">
+        <!-- #{}中的参数应该：
+                    1.与接口中的参数的注解名相同
+                    2.与对象的成员变量名相同
+                    3.与Map键值名相同
+        -->
+        select *
+        from tb_user
+        where username = #{userName}
+        and password = #{passWord}
+    </select>
+</mapper>
