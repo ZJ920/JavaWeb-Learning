@@ -8,9 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="day6-tomcat-demo2" />
         <module name="day6-tomcat-demo" />
+        <module name="day7-RequestPractice" />
         <module name="day3-mybatis-demo" />
         <module name="day7-servlet-demo" />
-        <module name="RequestPractice" />
+        <module name="day8-brand-practice" />
         <module name="day3-maven-learning" />
       </profile>
     </annotationProcessing>
@@ -19,11 +20,13 @@
       <module name="day3-mybatis-demo" target="8" />
       <module name="day6-tomcat-demo" target="1.7" />
       <module name="day6-tomcat-demo2" target="1.7" />
+      <module name="day7-RequestPractice" target="1.7" />
       <module name="day7-servlet-demo" target="1.7" />
+      <module name="day8-brand-practice" target="1.7" />
+      <module name="jsp-demo" target="8" />
       <module name="Maven-Learning" target="8" />
       <module name="mybatis-demo" target="8" />
       <module name="request-demo" target="8" />
-      <module name="RequestPractice" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

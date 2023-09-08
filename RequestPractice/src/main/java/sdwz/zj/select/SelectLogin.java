@@ -1,33 +1,37 @@
 package sdwz.zj.select;
 
-import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import sdwz.zj.mapper.UserMapper;
 import sdwz.zj.pojo.User;
-
+import sdwz.zj.util.GetSqlSessionFactory;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.List;
 
 public class SelectLogin {
-    public static void selectLogin(User user) throws IOException {
+    public static boolean selectLogin(User user) throws IOException {
 
-        String resource = "mybatis-config.xml";
-        InputStream inputStream = Resources.getResourceAsStream(resource);
-        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+        SqlSessionFactory sqlSessionFactory = GetSqlSessionFactory.getSqlSessionFactory();
 
         SqlSession sqlSession = sqlSessionFactory.openSession();
         try {
             UserMapper mapper = sqlSession.getMapper(UserMapper.class);
             List<User> users = mapper.selectLogin(user);
 
-            for (User user1 : users){
-                System.out.println(user1);
+            if (users.size() == 0){
+                System.out.println("查询失败...");
+
+                return false;
+            }else {
+                for (User user1 : users){
+                    System.out.println(user1);
+                }
+                return true;
             }
+
         } catch (Exception e) {
             e.printStackTrace();
+            return false;
         } finally {
             sqlSession.close();
         }

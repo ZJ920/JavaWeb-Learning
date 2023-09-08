@@ -11,7 +11,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="RequestPractice" />
+          <element id="module-output" name="day7-RequestPractice" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.13" />
@@ -22,7 +22,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/RequestPractice/target/RequestPractice/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="RequestPractice/web/Web" />
+      <element id="javaee-facet-resources" facet="day7-RequestPractice/web/Web" />
     </root>
   </artifact>
 </component>

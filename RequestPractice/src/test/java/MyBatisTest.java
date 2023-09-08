@@ -16,9 +16,9 @@ import java.util.List;
 public class MyBatisTest {
 
     @Test
-    public void selectLoginTest() throws IOException {
+    public boolean selectLoginTest() throws IOException {
         User user = new User();
-        user.setUserName("zhangsan");
+        user.setUserName("zhangsa");
         user.setPassWord("123");
 
         String resource = "mybatis-config.xml";
@@ -30,13 +30,24 @@ public class MyBatisTest {
             UserMapper mapper = sqlSession.getMapper(UserMapper.class);
             List<User> users = mapper.selectLogin(user);
 
-            for (User user1 : users){
-                System.out.println(user1);
+            if (users.size() == 0){
+                System.out.println("查询失败...");
+
+                return false;
+            }else {
+                for (User user1 : users){
+                    System.out.println(user1);
+                }
+
+                return true;
             }
+
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
             sqlSession.close();
+
+            return false;
         }
     }
 }

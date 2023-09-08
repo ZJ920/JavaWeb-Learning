@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="day8-brand-practice:war">
+    <output-path>$PROJECT_DIR$/day8-brand-practice/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>day8-brand-practice</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="day8-brand-practice.war">
+      <element id="artifact" artifact-name="day8-brand-practice:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="day7-RequestPractice:war">
+    <output-path>$PROJECT_DIR$/RequestPractice/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>day7-RequestPractice</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="RequestPractice.war">
+      <element id="artifact" artifact-name="day7-RequestPractice:war exploded" />
+    </root>
+  </artifact>
+</component>

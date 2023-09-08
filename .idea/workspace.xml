@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="day6-tomcat-demo:war" />
+      <artifact name="day8-brand-practice:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,161 +10,123 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50162867-e71e-4fd6-be6b-8b46efaec416" name="变更" comment="day7-Servlet">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/RequestPractice_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/RequestPractice_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/request_demo_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/request_demo_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RequestPractice/RequestPractice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RequestPractice/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RequestPractice/src/main/java/sdwz/zj/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RequestPractice/src/main/java/sdwz/zj/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RequestPractice/src/main/java/sdwz/zj/select/SelectLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RequestPractice/src/main/java/sdwz/zj/servlet/ServletLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RequestPractice/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RequestPractice/src/main/resources/sdwz/zj/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RequestPractice/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RequestPractice/src/main/webapp/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RequestPractice/src/main/webapp/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RequestPractice/src/main/webapp/html/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RequestPractice/src/main/webapp/html/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RequestPractice/src/main/webapp/imgs/Desert.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RequestPractice/src/main/webapp/imgs/reg_bg_min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RequestPractice/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RequestPractice/src/test/java/MyBatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7-servlet-demo/src/main/java/request/demo/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7-servlet-demo/src/main/java/request/demo/Demo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7-servlet-demo/src/main/java/request/demo/Demo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7-servlet-demo/src/main/java/request/demo/Demo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7-servlet-demo/src/main/java/request/demo/RequestDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7-servlet-demo/src/main/webapp/HTML/RequestDemo1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/request-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/util/SqlSessionFactoryUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/RegisterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/request/RequestDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/request/RequestDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/request/RequestDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/request/RequestDemo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/request/RequestDemo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/request/ServletDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/request/ServletDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/request/ServletDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/request/URLDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/response/ResponseDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/response/ResponseDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/response/ResponseDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/response/ResponseDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/resources/com/itheima/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/webapp/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/webapp/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/webapp/imgs/Desert.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/webapp/imgs/reg_bg_min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/webapp/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/webapp/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request-demo/src/main/webapp/req.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day7_RequestPractice_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day7_RequestPractice_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day8_brand_practice_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day8_brand_practice_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/jsp_demo_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/jsp_demo_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_82.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RequestPractice/src/main/java/sdwz/zj/util/GetSqlSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8-brand-practice/day8-brand-practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8-brand-practice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8-brand-practice/src/main/java/sdwz/zj/mapper/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8-brand-practice/src/main/java/sdwz/zj/pojo/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8-brand-practice/src/main/java/sdwz/zj/service/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8-brand-practice/src/main/java/sdwz/zj/util/SqlSessionFactoryUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8-brand-practice/src/main/java/sdwz/zj/web/BrandSelectAllServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8-brand-practice/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8-brand-practice/src/main/resources/sdwz/zj/mapper/BrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8-brand-practice/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8-brand-practice/src/main/webapp/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8-brand-practice/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8-brand-practice/src/main/webapp/jsp/brand.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8-brand-practice/src/test/java/BrandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/RequestPractice_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/RequestPractice_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/21e9a2eb-1089-496e-aa6e-bd139dc0392c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/21e9a2eb-1089-496e-aa6e-bd139dc0392c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/21e9a2eb-1089-496e-aa6e-bd139dc0392c/storage_v2/_src_/schema/sakila.oXLGyQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/21e9a2eb-1089-496e-aa6e-bd139dc0392c/storage_v2/_src_/schema/sakila.oXLGyQ.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day6-tomcat-demo/target/day6-tomcat-demo.war" beforeDir="false" afterPath="$PROJECT_DIR$/day6-tomcat-demo/target/day6-tomcat-demo.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day7-servlet-demo/src/main/webapp/HTML/demo4.html" beforeDir="false" afterPath="$PROJECT_DIR$/day7-servlet-demo/src/main/webapp/HTML/demo4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day7-servlet-demo/target/classes/servlet/demo/ServletDemo5.class" beforeDir="false" afterPath="$PROJECT_DIR$/day7-servlet-demo/target/classes/servlet/demo/ServletDemo5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day7-servlet-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/day7-servlet-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day7-servlet-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/day7-servlet-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day7-servlet-demo/target/tomcat/work/Tomcat/localhost/day7-servlet-demo/SESSIONS.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/.idea/dataSources/f8d210f4-a914-4aab-bd44-e81ebacf9fca.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/.idea/dataSources/f8d210f4-a914-4aab-bd44-e81ebacf9fca/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/.idea/libraries/Maven__junit_junit_4_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/.idea/libraries/Maven__org_mybatis_mybatis_3_5_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/.idea/mybatisx/templates.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/mybatis-demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/src/main/java/com/itheima/MyBatisDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/src/main/java/com/itheima/MyBatisDemo2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/src/main/java/com/itheima/mapper/BrandMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/src/main/java/com/itheima/mapper/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/src/main/java/com/itheima/pojo/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/src/main/resources/com/itheima/mapper/BrandMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/src/main/resources/com/itheima/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/src/main/resources/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/src/test/java/com/itheima/MyBatisDemo2Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/target/classes/com/itheima/MyBatisDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/target/classes/com/itheima/MyBatisDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/target/classes/com/itheima/mapper/BrandMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/target/classes/com/itheima/mapper/BrandMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/target/classes/com/itheima/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/target/classes/com/itheima/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/target/classes/com/itheima/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/target/classes/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/target/classes/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/target/test-classes/com/itheima/MyBatisDemo2Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/java/com/itheima/web/MyHttpServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/java/com/itheima/web/ServletDemo1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/java/com/itheima/web/ServletDemo10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/java/com/itheima/web/ServletDemo11.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/java/com/itheima/web/ServletDemo12.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/java/com/itheima/web/ServletDemo13.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/java/com/itheima/web/ServletDemo2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/java/com/itheima/web/ServletDemo3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/java/com/itheima/web/ServletDemo4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/java/com/itheima/web/ServletDemo5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/java/com/itheima/web/ServletDemo6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/java/com/itheima/web/ServletDemo7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/java/com/itheima/web/ServletDemo8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/java/com/itheima/web/ServletDemo9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/webapp/a.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/classes/com/itheima/web/MyHttpServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/classes/com/itheima/web/ServletDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/classes/com/itheima/web/ServletDemo10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/classes/com/itheima/web/ServletDemo11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/classes/com/itheima/web/ServletDemo12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/classes/com/itheima/web/ServletDemo13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/classes/com/itheima/web/ServletDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/classes/com/itheima/web/ServletDemo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/classes/com/itheima/web/ServletDemo4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/classes/com/itheima/web/ServletDemo5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/classes/com/itheima/web/ServletDemo6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/classes/com/itheima/web/ServletDemo7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/classes/com/itheima/web/ServletDemo8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/classes/com/itheima/web/ServletDemo9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/tomcat/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/tomcat/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/tomcat/logs/access_log.2021-06-29" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/tomcat/logs/access_log.2021-06-30" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/tomcat/logs/access_log.2021-07-01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/tomcat/logs/access_log.2021-07-02" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/web-demo-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/web-demo-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/web-demo-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/web/ServletDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/target/web-demo-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/web-demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java笔记-JavaWeb篇.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Java笔记-JavaWeb篇.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RequestPractice/RequestPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RequestPractice/day7-RequestPractice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RequestPractice/src/main/java/sdwz/zj/select/SelectLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/RequestPractice/src/main/java/sdwz/zj/select/SelectLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RequestPractice/src/main/java/sdwz/zj/servlet/ServletLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/RequestPractice/src/main/java/sdwz/zj/servlet/ServletLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RequestPractice/src/main/webapp/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/RequestPractice/src/main/webapp/html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RequestPractice/src/test/java/MyBatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/RequestPractice/src/test/java/MyBatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RequestPractice/target/test-classes/MyBatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/RequestPractice/target/test-classes/MyBatisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/request-demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/util/SqlSessionFactoryUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/RegisterServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/request/RequestDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/request/RequestDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/request/RequestDemo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/request/RequestDemo5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/request/RequestDemo6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/request/ServletDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/request/ServletDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/request/ServletDemo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/request/URLDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/response/ResponseDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/response/ResponseDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/response/ResponseDemo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/java/com/itheima/web/response/ResponseDemo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/resources/com/itheima/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/webapp/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/webapp/css/register.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/webapp/imgs/Desert.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/webapp/imgs/reg_bg_min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/webapp/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/webapp/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/webapp/req.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/classes/com/itheima/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/classes/com/itheima/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/classes/com/itheima/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/classes/com/itheima/web/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/classes/com/itheima/web/RegisterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/classes/com/itheima/web/URLDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/classes/com/itheima/web/request/RequestDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/classes/com/itheima/web/request/RequestDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/classes/com/itheima/web/request/RequestDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/classes/com/itheima/web/request/RequestDemo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/classes/com/itheima/web/request/RequestDemo6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/classes/com/itheima/web/request/ServletDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/classes/com/itheima/web/request/ServletDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/classes/com/itheima/web/request/ServletDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/classes/com/itheima/web/request/URLDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/classes/com/itheima/web/response/ResponseDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/classes/com/itheima/web/response/ResponseDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/classes/com/itheima/web/response/ResponseDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/classes/com/itheima/web/response/ResponseDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/request-demo-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/request-demo-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/web/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/request-demo-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/web/RequestDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/request-demo-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/web/RequestDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/request-demo-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/web/RequestDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/request-demo-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/web/RequestDemo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/request-demo-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/web/ServletDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/request-demo-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/web/ServletDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/request-demo-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/web/ServletDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/request-demo-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/request-demo-1.0-SNAPSHOT/req.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/tomcat/logs/access_log.2021-08-09" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/tomcat/logs/access_log.2021-08-10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/target/tomcat/logs/access_log.2021-08-11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$va笔记-JavaWeb篇.docx" beforeDir="false" afterPath="$PROJECT_DIR$/~$va笔记-JavaWeb篇.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,9 +139,10 @@
         <option value="FxmlFile" />
         <option value="Tag Library Descriptor" />
         <option value="JUnit4 Test Class" />
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -250,7 +213,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/RequestPractice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day8-brand-practice/src/main/webapp/jsp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -262,18 +225,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Study\myCode\JavaWeb-Learning\RequestPractice" />
-      <recent name="D:\Study\myCode\JavaWeb-Learning\RequestPractice\src\main\java\pojo" />
-      <recent name="D:\Study\myCode\JavaWeb-Learning\RequestPractice\src\main\webapp\WEB-INF" />
-      <recent name="D:\Study\myCode\JavaWeb-Learning\day7-servlet-demo\src\main\webapp\HTML" />
-      <recent name="D:\Study\myCode\JavaWeb-Learning\day6-tomcat-demo2\src\main\webapp\WEB-INF\HTML" />
+      <recent name="D:\Study\myCode\JavaWeb-Learning\day8-brand-practice\src\main\webapp\jsp" />
+      <recent name="D:\Study\myCode\JavaWeb-Learning\day8-brand-practice\src\main\resources\adwz\zj\mapper" />
+      <recent name="D:\Study\myCode\JavaWeb-Learning\day8-brand-practice\src\main\resources" />
+      <recent name="D:\Study\myCode\JavaWeb-Learning\day8-brand-practice\src\main\java\sdwz\zj\util" />
+      <recent name="D:\Study\myCode\JavaWeb-Learning\day8-brand-practice\src\main\java\sdwz\zj\pojo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Study\myCode\JavaWeb-Learning\day8-brand-practice\src\main\resources" />
       <recent name="D:\Study\myCode\JavaWeb-Learning\RequestPractice\src\main\resources" />
       <recent name="D:\Study\myCode\JavaWeb-Learning\RequestPractice\src\main\resources\sdwz\zj\mapper" />
       <recent name="D:\Study\myCode\JavaWeb-Learning\RequestPractice\src\main\webapp\html" />
       <recent name="D:\Study\myCode\JavaWeb-Learning\RequestPractice\src\main\webapp" />
-      <recent name="D:\Study\myCode\JavaWeb-Learning\day7-servlet-demo\src\main\webapp" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -289,19 +252,9 @@
       <recent name="mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisTest.selectLoginTest">
-    <configuration name="MyBatisDemoTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day3-mybatis-demo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyBatisDemoTest" />
-      <option name="METHOD_NAME" value="add" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JavaScript 调试.login.html">
     <configuration name="MyBatisTest.selectLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RequestPractice" />
+      <module name="day7-RequestPractice" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyBatisTest" />
       <option name="METHOD_NAME" value="selectLoginTest" />
@@ -311,7 +264,7 @@
       </method>
     </configuration>
     <configuration name="MyBatisTest.selectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RequestPractice" />
+      <module name="day7-RequestPractice" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyBatisTest" />
       <option name="METHOD_NAME" value="selectTest" />
@@ -330,113 +283,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb-Learning/day6-tomcat-demo2/src/main/webapp/WEB-INF/HTML/hello.html" useBuiltInWebServerPort="true">
+    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb-Learning/RequestPractice/src/main/webapp/html/login.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Tomcat 8.5.93" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.93" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="BROWSER_ID" value="37cae5b9-e8b2-4949-9172-aafa37fbc09c" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="day6-tomcat-demo:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/day6_tomcat_demo_war" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="1edd55b7-c884-4467-bf04-e62eef7ec066" />
-        <option name="HTTP_PORT" value="80" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="62587" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="day6-tomcat-demo:war" />
-        </option>
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JavaScript 调试.hello.html" />
-      <item itemvalue="JUnit.MyBatisDemoTest.add" />
+      <item itemvalue="JavaScript 调试.login.html" />
       <item itemvalue="JUnit.day6-tomcat-demo中的所有" />
-      <item itemvalue="Tomcat 服务器.Tomcat 8.5.93" />
       <item itemvalue="JUnit.MyBatisTest.selectTest" />
       <item itemvalue="JUnit.MyBatisTest.selectLoginTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MyBatisTest.selectLoginTest" />
+        <item itemvalue="JavaScript 调试.login.html" />
         <item itemvalue="JUnit.MyBatisTest.selectTest" />
         <item itemvalue="JUnit.day6-tomcat-demo中的所有" />
-        <item itemvalue="JavaScript 调试.hello.html" />
-        <item itemvalue="JUnit.MyBatisDemoTest.add" />
       </list>
     </recent_temporary>
   </component>
@@ -461,7 +322,8 @@
       <workItem from="1693887572012" duration="4152000" />
       <workItem from="1693907996105" duration="3781000" />
       <workItem from="1693976369222" duration="8705000" />
-      <workItem from="1694069055602" duration="10266000" />
+      <workItem from="1694069055602" duration="10389000" />
+      <workItem from="1694149406060" duration="20810000" />
     </task>
     <task id="LOCAL-00001" summary="day2-数据库增删改查">
       <created>1693219007760</created>
@@ -554,7 +416,21 @@
       <option name="project" value="LOCAL" />
       <updated>1693999632358</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="day7-Servlet">
+      <created>1694090281688</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1694090281688</updated>
+    </task>
+    <task id="LOCAL-00015" summary="day7-Servlet">
+      <created>1694090306116</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1694090306116</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
