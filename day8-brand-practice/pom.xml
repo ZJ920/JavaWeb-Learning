@@ -75,7 +75,7 @@
 
   <build>
     <finalName>day8-brand-practice</finalName>
-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+<!--    <pluginManagement>&lt;!&ndash; lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) &ndash;&gt;-->
       <plugins>
         <plugin>
           <groupId>org.apache.tomcat.maven</groupId>
@@ -83,6 +83,6 @@
           <version>2.2</version>
         </plugin>
       </plugins>
-    </pluginManagement>
+<!--    </pluginManagement>-->
   </build>
 </project>

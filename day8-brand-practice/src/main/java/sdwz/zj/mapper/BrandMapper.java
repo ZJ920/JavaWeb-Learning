@@ -16,4 +16,10 @@ public interface BrandMapper {
     @Select("select * from tb_brand")
     @ResultMap("brandResultMap")
     List<Brand> selectAll();
+
+    /*
+    * 添加
+    * */
+    int add(Brand brand);
+
 }

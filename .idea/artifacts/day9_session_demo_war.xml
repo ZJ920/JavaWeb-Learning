@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="day9-session-demo:war">
+    <output-path>$PROJECT_DIR$/day9-session-demo/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>day9-session-demo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="day8-brand-practice.war">
+      <element id="artifact" artifact-name="day9-session-demo:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/day6-tomcat-demo2" />
     <file type="web" url="file://$PROJECT_DIR$/day7-servlet-demo" />
     <file type="web" url="file://$PROJECT_DIR$/day8-brand-practice" />
+    <file type="web" url="file://$PROJECT_DIR$/day9-session-demo" />
     <file type="web" url="file://$PROJECT_DIR$/jsp-demo" />
     <file type="web" url="file://$PROJECT_DIR$/request-demo" />
     <file type="web" url="file://$PROJECT_DIR$/RequestPractice" />
@@ -20,6 +21,7 @@
         <option value="$PROJECT_DIR$/day7-servlet-demo/pom.xml" />
         <option value="$PROJECT_DIR$/RequestPractice/pom.xml" />
         <option value="$PROJECT_DIR$/day8-brand-practice/pom.xml" />
+        <option value="$PROJECT_DIR$/day9-session-demo/pom.xml" />
       </list>
     </option>
   </component>

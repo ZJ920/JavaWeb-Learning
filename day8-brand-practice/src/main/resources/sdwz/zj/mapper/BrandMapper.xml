@@ -31,21 +31,10 @@
         <result column="company_name" property="companyName"/>
     </resultMap>
 
-<!--    <select id="selectAll" resultMap="brandResultMap">-->
-<!--        select * from tb_brand-->
-<!--    </select>-->
+    <insert id="add" useGeneratedKeys="true" keyProperty="id">
 
+        insert into tb_brand(company_name, brand_name, ordered, description, status)
+        values (#{companyName}, #{brandName}, #{ordered}, #{description}, #{status})
 
-    <!--动态单条件查询-->
-<!--    <select id="selectLogin" resultMap="userResultMap">-->
-        <!-- #{}中的参数应该：
-                    1.与接口中的参数的注解名相同
-                    2.与对象的成员变量名相同
-                    3.与Map键值名相同
-        -->
-<!--        select *-->
-<!--        from tb_user-->
-<!--        where username = #{userName}-->
-<!--        and password = #{passWord}-->
-<!--    </select>-->
+    </insert>
 </mapper>

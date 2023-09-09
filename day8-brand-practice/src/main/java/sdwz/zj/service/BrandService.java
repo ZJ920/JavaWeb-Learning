@@ -25,4 +25,22 @@ public class BrandService {
 //        }
         return brands;
     }
+
+    public static int add(Brand brand){
+
+        SqlSessionFactory sqlSessionFactory = SqlSessionFactoryUtils.getSqlSessionFactory();
+        sqlSession = sqlSessionFactory.openSession();
+
+        BrandMapper mapper = sqlSession.getMapper(BrandMapper.class);
+        int rows = mapper.add(brand);
+        int id = brand.getId();
+
+        System.out.println("插入的主键id:"+id);
+        System.out.println("受影响的行数:"+rows);
+
+        sqlSession.commit();
+        sqlSession.close();
+
+        return rows;
+    }
 }

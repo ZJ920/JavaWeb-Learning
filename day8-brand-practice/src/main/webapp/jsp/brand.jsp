@@ -48,7 +48,7 @@
 
 <script>
     document.getElementById("add").onclick = function (){
-        location.href = "/brand-demo/addBrand.jsp";
+        location.href = "/day8-brand-practice/jsp/addBrand.jsp";
     }
 
 </script>

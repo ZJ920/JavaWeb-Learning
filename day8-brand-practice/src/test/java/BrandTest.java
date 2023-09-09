@@ -6,6 +6,7 @@ import sdwz.zj.pojo.Brand;
 import sdwz.zj.util.SqlSessionFactoryUtils;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -24,6 +25,28 @@ public class BrandTest {
         for (Brand brand : brands) {
             System.out.println(brand);
         }
+
+        sqlSession.close();
+    }
+
+    @Test
+    public void addTest(){
+
+        Brand brand = new Brand(1,"三只松鼠","三只松鼠",100,"三只松鼠，好吃不上火",1);
+
+
+        SqlSessionFactory sqlSessionFactory = SqlSessionFactoryUtils.getSqlSessionFactory();
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+        BrandMapper mapper = sqlSession.getMapper(BrandMapper.class);
+        int rows = mapper.add(brand);
+        int id = brand.getId();
+
+        System.out.println("id:"+id);
+        System.out.println("rows:"+rows);
+
+        sqlSession.commit();
+        sqlSession.close();
 
     }
 }
