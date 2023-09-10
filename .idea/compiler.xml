@@ -11,12 +11,14 @@
         <module name="day7-RequestPractice" />
         <module name="day3-mybatis-demo" />
         <module name="day9-session-demo" />
+        <module name="day10-filter-demo" />
         <module name="day7-servlet-demo" />
         <module name="day8-brand-practice" />
         <module name="day3-maven-learning" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="day10-filter-demo" target="1.7" />
       <module name="day3-maven-learning" target="8" />
       <module name="day3-mybatis-demo" target="8" />
       <module name="day6-tomcat-demo" target="1.7" />

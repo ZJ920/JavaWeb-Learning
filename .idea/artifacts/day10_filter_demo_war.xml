@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="day10-filter-demo:war">
+    <output-path>$PROJECT_DIR$/day10-filter-demo/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>day10-filter-demo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="day8-brand-practice.war">
+      <element id="artifact" artifact-name="day10-filter-demo:war exploded" />
+    </root>
+  </artifact>
+</component>

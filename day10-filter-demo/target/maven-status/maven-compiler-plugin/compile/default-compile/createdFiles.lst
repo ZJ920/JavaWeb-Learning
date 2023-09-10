@@ -1,0 +1,12 @@
+sdwz\zj\mapper\BrandMapper.class
+sdwz\zj\mapper\UserMapper.class
+sdwz\zj\util\CheckCodeUtil.class
+sdwz\zj\pojo\User.class
+sdwz\zj\service\UserService.class
+sdwz\zj\web\BrandAddServlet.class
+sdwz\zj\web\BrandSelectAllServlet.class
+sdwz\zj\web\LoginServlet.class
+sdwz\zj\pojo\Brand.class
+sdwz\zj\web\filter\loginFilter.class
+sdwz\zj\util\SqlSessionFactoryUtils.class
+sdwz\zj\service\BrandService.class

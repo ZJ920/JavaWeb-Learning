@@ -9,40 +9,157 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50162867-e71e-4fd6-be6b-8b46efaec416" name="变更" comment="day7-综合练习">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day9_session_demo_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day9_session_demo_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day8-brand-practice/src/main/java/sdwz/zj/web/BrandAddServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day8-brand-practice/src/main/webapp/jsp/addBrand.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9-session-demo/day9-session-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9-session-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9-session-demo/src/main/java/sdwz/zj/cookie/CookieDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9-session-demo/src/main/java/sdwz/zj/cookie/CookieDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9-session-demo/src/main/java/sdwz/zj/session/SessionDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9-session-demo/src/main/java/sdwz/zj/session/SessionDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9-session-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9-session-demo/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="50162867-e71e-4fd6-be6b-8b46efaec416" name="变更" comment="day9-Cookie、Session实现连续会话，filter拦截器">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day10_filter_demo_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day10_filter_demo_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/brand-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/itheima/mapper/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/itheima/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/itheima/pojo/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/itheima/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/itheima/service/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/itheima/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/itheima/util/CheckCodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/itheima/util/SqlSessionFactoryUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/itheima/web/AddServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/itheima/web/CheckCodeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/itheima/web/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/itheima/web/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/itheima/web/SelectAllServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/itheima/web/SelectByIdServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/itheima/web/UpdateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/itheima/web/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/itheima/web/listener/ContextLoaderListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/resources/com/itheima/mapper/BrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/resources/com/itheima/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/addBrand.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/brand.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/imgs/Desert1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/imgs/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/imgs/reg_bg_min.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/classes/com/itheima/mapper/BrandMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/classes/com/itheima/mapper/BrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/classes/com/itheima/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/classes/com/itheima/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/classes/com/itheima/pojo/Brand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/classes/com/itheima/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/classes/com/itheima/service/BrandService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/classes/com/itheima/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/classes/com/itheima/util/CheckCodeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/classes/com/itheima/util/SqlSessionFactoryUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/classes/com/itheima/web/AddServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/classes/com/itheima/web/CheckCodeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/classes/com/itheima/web/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/classes/com/itheima/web/RegisterServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/classes/com/itheima/web/SelectAllServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/classes/com/itheima/web/SelectByIdServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/classes/com/itheima/web/UpdateServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/classes/com/itheima/web/filter/LoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/classes/com/itheima/web/listener/ContextLoaderListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/tomcat/logs/access_log.2021-08-13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/tomcat/logs/access_log.2021-08-16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/tomcat/logs/access_log.2021-08-18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/tomcat/logs/access_log.2021-08-19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/tomcat/work/Tomcat/localhost/brand-demo/org/apache/jsp/addBrand_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/tomcat/work/Tomcat/localhost/brand-demo/org/apache/jsp/addBrand_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/tomcat/work/Tomcat/localhost/brand-demo/org/apache/jsp/brand_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/tomcat/work/Tomcat/localhost/brand-demo/org/apache/jsp/brand_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/tomcat/work/Tomcat/localhost/brand-demo/org/apache/jsp/login_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/tomcat/work/Tomcat/localhost/brand-demo/org/apache/jsp/login_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/tomcat/work/Tomcat/localhost/brand-demo/org/apache/jsp/register_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/tomcat/work/Tomcat/localhost/brand-demo/org/apache/jsp/register_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/tomcat/work/Tomcat/localhost/brand-demo/org/apache/jsp/update_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/target/tomcat/work/Tomcat/localhost/brand-demo/org/apache/jsp/update_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/day10-filter-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/java/sdwz/zj/mapper/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/java/sdwz/zj/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/java/sdwz/zj/pojo/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/java/sdwz/zj/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/java/sdwz/zj/service/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/java/sdwz/zj/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/java/sdwz/zj/util/CheckCodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/java/sdwz/zj/util/SqlSessionFactoryUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/java/sdwz/zj/web/BrandAddServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/java/sdwz/zj/web/BrandSelectAllServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/java/sdwz/zj/web/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/java/sdwz/zj/web/filter/loginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/resources/sdwz/zj/mapper/BrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/resources/sdwz/zj/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/webapp/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/webapp/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/webapp/html/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/webapp/html/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/webapp/imgs/Desert1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/webapp/imgs/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/webapp/imgs/reg_bg_min.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/webapp/jsp/addBrand.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/webapp/jsp/brand.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/webapp/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/webapp/jsp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/main/webapp/jsp/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/src/test/java/BrandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/classes/sdwz/zj/mapper/BrandMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/classes/sdwz/zj/mapper/BrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/classes/sdwz/zj/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/classes/sdwz/zj/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/classes/sdwz/zj/pojo/Brand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/classes/sdwz/zj/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/classes/sdwz/zj/service/BrandService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/classes/sdwz/zj/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/classes/sdwz/zj/util/CheckCodeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/classes/sdwz/zj/util/SqlSessionFactoryUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/classes/sdwz/zj/web/BrandAddServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/classes/sdwz/zj/web/BrandSelectAllServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/classes/sdwz/zj/web/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/classes/sdwz/zj/web/filter/loginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/test-classes/BrandTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/tomcat/logs/access_log.2023-09-10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/tomcat/work/Tomcat/localhost/day10-filter-demo/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/tomcat/work/Tomcat/localhost/day10-filter-demo/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/tomcat/work/Tomcat/localhost/day10-filter-demo/org/apache/jsp/jsp/addBrand_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/tomcat/work/Tomcat/localhost/day10-filter-demo/org/apache/jsp/jsp/addBrand_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/tomcat/work/Tomcat/localhost/day10-filter-demo/org/apache/jsp/jsp/brand_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/tomcat/work/Tomcat/localhost/day10-filter-demo/org/apache/jsp/jsp/brand_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/tomcat/work/Tomcat/localhost/day10-filter-demo/org/apache/jsp/jsp/login_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10-filter-demo/target/tomcat/work/Tomcat/localhost/day10-filter-demo/org/apache/jsp/jsp/login_jsp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/21e9a2eb-1089-496e-aa6e-bd139dc0392c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/21e9a2eb-1089-496e-aa6e-bd139dc0392c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java笔记-JavaWeb篇.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Java笔记-JavaWeb篇.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day8-brand-practice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day8-brand-practice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day8-brand-practice/src/main/java/sdwz/zj/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/day8-brand-practice/src/main/java/sdwz/zj/mapper/BrandMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day8-brand-practice/src/main/java/sdwz/zj/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/day8-brand-practice/src/main/java/sdwz/zj/service/BrandService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day8-brand-practice/src/main/resources/sdwz/zj/mapper/BrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day8-brand-practice/src/main/resources/sdwz/zj/mapper/BrandMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day8-brand-practice/src/main/webapp/jsp/brand.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/day8-brand-practice/src/main/webapp/jsp/brand.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day8-brand-practice/src/test/java/BrandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day8-brand-practice/src/test/java/BrandTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day8-brand-practice/target/classes/sdwz/zj/mapper/BrandMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/day8-brand-practice/target/classes/sdwz/zj/mapper/BrandMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day8-brand-practice/target/classes/sdwz/zj/mapper/BrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day8-brand-practice/target/classes/sdwz/zj/mapper/BrandMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day8-brand-practice/target/classes/sdwz/zj/service/BrandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/day8-brand-practice/target/classes/sdwz/zj/service/BrandService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day8-brand-practice/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/day8-brand-practice/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day8-brand-practice/target/test-classes/BrandTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/day8-brand-practice/target/test-classes/BrandTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day8-brand-practice/target/tomcat/work/Tomcat/localhost/day8-brand-practice/org/apache/jsp/jsp/brand_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/day8-brand-practice/target/tomcat/work/Tomcat/localhost/day8-brand-practice/org/apache/jsp/jsp/brand_jsp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day8-brand-practice/target/tomcat/work/Tomcat/localhost/day8-brand-practice/org/apache/jsp/jsp/brand_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/day8-brand-practice/target/tomcat/work/Tomcat/localhost/day8-brand-practice/org/apache/jsp/jsp/brand_jsp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/~$va笔记-JavaWeb篇.docx" beforeDir="false" afterPath="$PROJECT_DIR$/~$va笔记-JavaWeb篇.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~WRL0706.tmp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +246,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day8-brand-practice/src/main/java/sdwz/zj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/brand-demo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -141,18 +258,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Study\myCode\JavaWeb-Learning\day8-brand-practice\src\main\java\sdwz\zj" />
-      <recent name="D:\Study\myCode\JavaWeb-Learning\day8-brand-practice\src\main\webapp\jsp" />
-      <recent name="D:\Study\myCode\JavaWeb-Learning\day8-brand-practice\src\main\resources\adwz\zj\mapper" />
-      <recent name="D:\Study\myCode\JavaWeb-Learning\day8-brand-practice\src\main\resources" />
-      <recent name="D:\Study\myCode\JavaWeb-Learning\day8-brand-practice\src\main\java\sdwz\zj\util" />
+      <recent name="D:\Study\myCode\JavaWeb-Learning\day10-filter-demo\src\main\resources\sdwz\zj\mapper" />
+      <recent name="D:\Study\myCode\JavaWeb-Learning\day10-filter-demo\src\main\webapp" />
+      <recent name="D:\Study\myCode\JavaWeb-Learning\day10-filter-demo\src\main\webapp\html" />
+      <recent name="D:\Study\myCode\JavaWeb-Learning\day10-filter-demo\src\main\webapp\jsp" />
+      <recent name="D:\Study\myCode\JavaWeb-Learning\day10-filter-demo\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Study\myCode\JavaWeb-Learning\day10-filter-demo\src\main\resources\sdwz\zj\mapper" />
+      <recent name="D:\Study\myCode\JavaWeb-Learning\day8-brand-practice\src\main\resources\sdwz.zj.mapper" />
+      <recent name="D:\Study\myCode\JavaWeb-Learning\day10-filter-demo\src\main\resources\sdwz.zj" />
       <recent name="D:\Study\myCode\JavaWeb-Learning\day8-brand-practice\src\main\resources" />
       <recent name="D:\Study\myCode\JavaWeb-Learning\RequestPractice\src\main\resources" />
-      <recent name="D:\Study\myCode\JavaWeb-Learning\RequestPractice\src\main\resources\sdwz\zj\mapper" />
-      <recent name="D:\Study\myCode\JavaWeb-Learning\RequestPractice\src\main\webapp\html" />
-      <recent name="D:\Study\myCode\JavaWeb-Learning\RequestPractice\src\main\webapp" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -162,40 +279,20 @@
       <recent name="com.itheima" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="sdwz.zj.session" />
-      <recent name="sdwz.zj.cookie" />
+      <recent name="sdwz.zj.util" />
+      <recent name="sdwz.zj.service" />
+      <recent name="sdwz.zj.pojo" />
+      <recent name="sdwz.zj.mapper" />
       <recent name="" />
-      <recent name="request.demo" />
-      <recent name="servlet.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.BrandTest.addTest">
+  <component name="RunManager" selected="TestNG.BrandTest.selectBrandAllTest">
     <configuration name="MyBatisTest.selectLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day7-RequestPractice" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyBatisTest" />
       <option name="METHOD_NAME" value="selectLoginTest" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyBatisTest.selectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day7-RequestPractice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyBatisTest" />
-      <option name="METHOD_NAME" value="selectTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day6-tomcat-demo中的所有" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day6-tomcat-demo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,20 +312,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BrandTest.selectBrandAllTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="day10-filter-demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BrandTest" />
+      <option name="METHOD_NAME" value="selectBrandAllTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BrandTest.selectUserAllTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="day10-filter-demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BrandTest" />
+      <option name="METHOD_NAME" value="selectUserAllTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JavaScript 调试.login.html" />
-      <item itemvalue="JUnit.day6-tomcat-demo中的所有" />
-      <item itemvalue="JUnit.MyBatisTest.selectTest" />
       <item itemvalue="JUnit.MyBatisTest.selectLoginTest" />
       <item itemvalue="TestNG.BrandTest.addTest" />
+      <item itemvalue="TestNG.BrandTest.selectUserAllTest" />
+      <item itemvalue="TestNG.BrandTest.selectBrandAllTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BrandTest.selectBrandAllTest" />
+        <item itemvalue="TestNG.BrandTest.selectUserAllTest" />
         <item itemvalue="TestNG.BrandTest.addTest" />
         <item itemvalue="JUnit.MyBatisTest.selectLoginTest" />
         <item itemvalue="JavaScript 调试.login.html" />
-        <item itemvalue="JUnit.MyBatisTest.selectTest" />
-        <item itemvalue="JUnit.day6-tomcat-demo中的所有" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +376,9 @@
       <workItem from="1693976369222" duration="8705000" />
       <workItem from="1694069055602" duration="10389000" />
       <workItem from="1694149406060" duration="21350000" />
-      <workItem from="1694222829921" duration="9071000" />
+      <workItem from="1694222829921" duration="10221000" />
+      <workItem from="1694327456458" duration="1559000" />
+      <workItem from="1694330807286" duration="15716000" />
     </task>
     <task id="LOCAL-00001" summary="day2-数据库增删改查">
       <created>1693219007760</created>
@@ -369,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694189126516</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="day9-Cookie、Session">
+      <created>1694261326491</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1694261326491</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,6 +526,8 @@
     <MESSAGE value="day6-Tomcat" />
     <MESSAGE value="day7-Servlet" />
     <MESSAGE value="day7-综合练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="day7-综合练习" />
+    <MESSAGE value="day9-Cookie、Session" />
+    <MESSAGE value="day9-Cookie、Session实现连续会话，filter拦截器" />
+    <option name="LAST_COMMIT_MESSAGE" value="day9-Cookie、Session实现连续会话，filter拦截器" />
   </component>
 </project>
