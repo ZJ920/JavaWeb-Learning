@@ -1,10 +1,7 @@
 package sdwz.zj.web.filter;
 
-import com.mysql.cj.Session;
-
 import javax.servlet.*;
 import javax.servlet.annotation.*;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
