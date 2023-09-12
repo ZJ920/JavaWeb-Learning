@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="addBrand.html"><input type="button" value="新增"></a><br>
+<hr>
+<table id="brandTable" border="1" cellspacing="0" width="100%">
+
+</table>
+
+<div id="brands">
+    <table border="1" cellspacing="0" width="80%">
+        <tr>
+            <th>序号</th>
+            <th>品牌名称</th>
+            <th>企业名称</th>
+            <th>排序</th>
+            <th>品牌介绍</th>
+            <th>状态</th>
+            <th>操作</th>
+        </tr>
+        <tr v-for="(brand,i) in brands">
+            <td>{{i+1}}</td>
+            <td>{{brand.brandName}}</td>//getBrandName去掉get、BrandName->brandName
+            <td>{{brand.companyName}}</td>
+            <td>{{brand.ordered}}</td>
+            <td>{{brand.description}}</td>
+            <td>{{brand.statusStr}}</td>
+            <td></td>
+        </tr>
+    </table>
+
+</div>
+
+<script src="../js/vue.js"></script>
+<script src="../js/axios-0.18.0.js"></script>
+
+<script>
+
+    //1. 创建Vue核心对象
+    new Vue({
+        el: "#brands",
+        data() {
+            return {
+                brands:[]//_this.brands = resp.data();
+            }
+        },
+        methods: {},
+        mounted() {
+            //2. 发送ajax请求
+            var _this = this
+            axios({
+                method: "get",
+                url: "http://localhost:8080/day8-brand-practice/brandSelectAllServlet"
+            }).then(function (resp) {
+                _this.brands = resp.data;
+                console.log("接口输出：");
+                console.log(_this.brands);
+            })
+
+
+        }
+    });
+
+</script>
+
+</body>
+</html>

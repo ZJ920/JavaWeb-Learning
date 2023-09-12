@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [12/Sep/2023:14:50:23 +0800] "GET /day11-ajax-demo HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [12/Sep/2023:14:50:23 +0800] "GET /day11-ajax-demo/ HTTP/1.1" 200 52 http-bio-8080-exec-2 541
+0:0:0:0:0:0:0:1 - - [12/Sep/2023:14:50:24 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [12/Sep/2023:14:50:44 +0800] "GET /day11-ajax-demo/html/AjaxDemo1.html HTTP/1.1" 200 693 http-bio-8080-exec-4 5
+0:0:0:0:0:0:0:1 - - [12/Sep/2023:14:50:44 +0800] "GET /day11-ajax-demo/ajaxServletDemo1 HTTP/1.1" 200 13 http-bio-8080-exec-5 0

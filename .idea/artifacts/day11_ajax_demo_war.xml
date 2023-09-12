@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="day11-ajax-demo:war">
+    <output-path>$PROJECT_DIR$/day11-ajax-demo/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>day11-ajax-demo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="day11-ajax-demo-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="day11-ajax-demo:war exploded" />
+    </root>
+  </artifact>
+</component>

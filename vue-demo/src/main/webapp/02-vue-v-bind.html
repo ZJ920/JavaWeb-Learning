@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <input v-model="url">
+
+    <a v-bind:href="url">点击一下</a>
+</div>
+<script src="js/vue.js"></script>
+<script>
+    //1. 创建Vue核心对象
+    new Vue({
+        el:"#app",
+        data(){
+            return {
+                url:"https://www.baidu.com"
+            }
+        }
+    });
+
+</script>
+
+
+</body>
+</html>
