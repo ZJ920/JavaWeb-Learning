@@ -8,8 +8,24 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="day2-jdbc-demo" />
+      <module name="day6-tomcat-demo2" />
+      <module name="day3-mybatis-demo" />
+      <module name="day7-servlet-demo" />
+      <module name="day6-tomcat-demo" />
+      <module name="day8-brand-practice" />
+      <module name="day3-maven-learning" />
+      <module name="day9-session-demo" />
+      <module name="day10-filter-demo" />
+      <module name="brand-demo" />
+    </loaded-modules>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="50162867-e71e-4fd6-be6b-8b46efaec416" name="变更" comment="day11、12-ajax、vue(假装学习版)" />
+    <list default="true" id="50162867-e71e-4fd6-be6b-8b46efaec416" name="变更" comment="day11、12-ajax、vue(假装学习版)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -230,7 +246,7 @@
       <workItem from="1694330807286" duration="15716000" />
       <workItem from="1694418631386" duration="2833000" />
       <workItem from="1694534027501" duration="779000" />
-      <workItem from="1694595813484" duration="2963000" />
+      <workItem from="1694595813484" duration="4250000" />
     </task>
     <task id="LOCAL-00001" summary="day2-数据库增删改查">
       <created>1693219007760</created>
@@ -379,11 +395,35 @@
       <option name="project" value="LOCAL" />
       <updated>1694604514393</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="day11、12-ajax、vue(假装学习版)">
+      <created>1694604975816</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1694604975816</updated>
+    </task>
+    <task id="LOCAL-00023" summary="day11、12-ajax、vue(假装学习版)">
+      <created>1694605942168</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1694605942168</updated>
+    </task>
+    <task id="LOCAL-00024" summary="day11、12-ajax、vue(假装学习版)">
+      <created>1694606085906</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1694606085906</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnloadedModulesList">
+    <module name="vue-demo" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
