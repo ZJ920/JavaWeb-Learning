@@ -86,6 +86,14 @@ public class Brand {
         this.status = status;
     }
 
+    public String getStatusStr() {
+        if (this.status == 0){
+            return "禁用";
+        }else {
+            return "启用";
+        }
+    }
+
     @Override
     public String toString() {
         return "Brand{" +

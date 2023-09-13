@@ -11,20 +11,19 @@ import java.util.List;
 
 @WebServlet("/selectAllServlet")
 public class SelectAllServlet extends HttpServlet {
-    private  BrandService service = new BrandService();
+    private BrandService brandService = new BrandService();
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        //1. 调用Service查询
+        List<Brand> brands = brandService.selectAll();
 
+        //2. 将集合转换为JSON数据   序列化
+        String jsonString = JSON.toJSONString(brands);
 
-        //1. 调用BrandService完成查询
-        List<Brand> brands = service.selectAll();
-
-        //2. 存入request域中
-        request.setAttribute("brands",brands);
-
-        //3. 转发到brand.jsp
-        request.getRequestDispatcher("/brand.jsp").forward(request,response);
+        //3. 响应数据
+        response.setContentType("text/json;charset=utf-8");
+        response.getWriter().write(jsonString);
     }
 
     @Override

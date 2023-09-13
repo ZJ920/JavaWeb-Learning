@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="day6-tomcat-demo2" />
         <module name="day6-tomcat-demo" />
-        <module name="day7-RequestPractice" />
         <module name="day3-mybatis-demo" />
         <module name="day9-session-demo" />
         <module name="day10-filter-demo" />

@@ -5,12 +5,12 @@
     <file type="web" url="file://$PROJECT_DIR$/day10-filter-demo" />
     <file type="web" url="file://$PROJECT_DIR$/day6-tomcat-demo" />
     <file type="web" url="file://$PROJECT_DIR$/day6-tomcat-demo2" />
+    <file type="web" url="file://$PROJECT_DIR$/day7-RequestPractice" />
     <file type="web" url="file://$PROJECT_DIR$/day7-servlet-demo" />
     <file type="web" url="file://$PROJECT_DIR$/day8-brand-practice" />
     <file type="web" url="file://$PROJECT_DIR$/day9-session-demo" />
     <file type="web" url="file://$PROJECT_DIR$/jsp-demo" />
     <file type="web" url="file://$PROJECT_DIR$/request-demo" />
-    <file type="web" url="file://$PROJECT_DIR$/RequestPractice" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
