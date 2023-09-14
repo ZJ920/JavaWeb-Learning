@@ -1,5 +1,6 @@
 package sdwz.zj.mapper;
 
+import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.ResultMap;
 import org.apache.ibatis.annotations.Select;
@@ -19,6 +20,8 @@ public interface BrandMapper {
 
     /*
     * 添加
+    * 返回受影响的行数
+    * 获取主键：int id = brand.getId();
     * */
     int add(Brand brand);
 

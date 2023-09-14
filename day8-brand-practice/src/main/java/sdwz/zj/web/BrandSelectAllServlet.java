@@ -1,5 +1,6 @@
 package sdwz.zj.web;
 
+import com.alibaba.fastjson.JSON;
 import sdwz.zj.pojo.Brand;
 import sdwz.zj.service.BrandService;
 
@@ -23,10 +24,17 @@ public class BrandSelectAllServlet extends HttpServlet {
 //        }
 
         //2. 存入request域中
-        req.setAttribute("brands",brands);
+        //req.setAttribute("brands",brands);
 
         //3. 转发到brand.jsp
-        req.getRequestDispatcher("/jsp/brand.jsp").forward(req,resp);
+        //req.getRequestDispatcher("/jsp/brand.jsp").forward(req,resp);
+
+        //2. 将集合转换为JSON数据   序列化
+        String jsonString = JSON.toJSONString(brands);
+
+        //3. 响应数据
+        resp.setContentType("text/json;charset=utf-8");
+        resp.getWriter().write(jsonString);
     }
 
     @Override
