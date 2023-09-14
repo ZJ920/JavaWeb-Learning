@@ -26,7 +26,6 @@ public class BrandServlet extends BaseServlet{
         String toJSONString = JSON.toJSONString(brands);
 
         //响应数据
-
         resp.setContentType("text/json;charset=utf-8");
         resp.getWriter().write(toJSONString);
     }
