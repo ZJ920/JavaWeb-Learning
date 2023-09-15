@@ -24,7 +24,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50162867-e71e-4fd6-be6b-8b46efaec416" name="变更" comment="day14：Servlet代码优化、综合案例">
+      <change afterPath="$PROJECT_DIR$/brand-case/src/main/java/sdwz/zj/pojo/PageBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java笔记-JavaWeb篇.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Java笔记-JavaWeb篇.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brand-case/src/main/java/sdwz/zj/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/brand-case/src/main/java/sdwz/zj/mapper/BrandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brand-case/src/main/java/sdwz/zj/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/brand-case/src/main/java/sdwz/zj/service/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brand-case/src/main/java/sdwz/zj/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/brand-case/src/main/java/sdwz/zj/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brand-case/src/main/java/sdwz/zj/web/BrandServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/brand-case/src/main/java/sdwz/zj/web/BrandServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brand-case/src/main/resources/sdwz/zj/mapper/BrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/brand-case/src/main/resources/sdwz/zj/mapper/BrandMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brand-case/src/main/webapp/html/brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/brand-case/src/main/webapp/html/brand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brand-case/target/classes/sdwz/zj/mapper/BrandMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/brand-case/target/classes/sdwz/zj/mapper/BrandMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brand-case/target/classes/sdwz/zj/mapper/BrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/brand-case/target/classes/sdwz/zj/mapper/BrandMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brand-case/target/classes/sdwz/zj/service/BrandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/brand-case/target/classes/sdwz/zj/service/BrandService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brand-case/target/classes/sdwz/zj/service/impl/BrandServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/brand-case/target/classes/sdwz/zj/service/impl/BrandServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brand-case/target/classes/sdwz/zj/web/BaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/brand-case/target/classes/sdwz/zj/web/BaseServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brand-case/target/classes/sdwz/zj/web/BrandServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/brand-case/target/classes/sdwz/zj/web/BrandServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brand-case/target/tomcat/work/Tomcat/localhost/brand-case/SESSIONS.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/brand-case/target/tomcat/work/Tomcat/localhost/brand-case/org/apache/jsp/index_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/brand-case/target/tomcat/work/Tomcat/localhost/brand-case/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brand-case/target/tomcat/work/Tomcat/localhost/brand-case/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/brand-case/target/tomcat/work/Tomcat/localhost/brand-case/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$va笔记-JavaWeb篇.docx" beforeDir="false" afterPath="$PROJECT_DIR$/~$va笔记-JavaWeb篇.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +81,7 @@
     <setting file="file://$PROJECT_DIR$/day3-mybatis-demo/src/main/resources/mybatis-config.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/day2-jdbc-demo/src/day2/example/DemoTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/day3-mybatis-demo/src/main/resources/mapper/BrandMapper.xml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/brand-case/src/main/resources/sdwz/zj/mapper/BrandMapper.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/day7-RequestPractice/src/main/resources/sdwz/zj/mapper/UserMapper.xml" root0="SKIP_INSPECTION" />
   </component>
   <component name="LogFilters">
@@ -261,6 +281,7 @@
       <workItem from="1694595813484" duration="5130000" />
       <workItem from="1694663184917" duration="23104000" />
       <workItem from="1694694055640" duration="313000" />
+      <workItem from="1694743471610" duration="24025000" />
     </task>
     <task id="LOCAL-00001" summary="day2-数据库增删改查">
       <created>1693219007760</created>
@@ -444,7 +465,42 @@
       <option name="project" value="LOCAL" />
       <updated>1694606697673</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="day14：Servlet代码优化、综合案例">
+      <created>1694695664545</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1694695664545</updated>
+    </task>
+    <task id="LOCAL-00028" summary="day14：Servlet代码优化、综合案例">
+      <created>1694695722111</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1694695722111</updated>
+    </task>
+    <task id="LOCAL-00029" summary="day14：Servlet代码优化、综合案例">
+      <created>1694695859977</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1694695859977</updated>
+    </task>
+    <task id="LOCAL-00030" summary="day14：Servlet代码优化、综合案例">
+      <created>1694695934205</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1694695934205</updated>
+    </task>
+    <task id="LOCAL-00031" summary="day14：Servlet代码优化、综合案例">
+      <created>1694695950092</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1694695950092</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
